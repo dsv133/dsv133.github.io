@@ -4,9 +4,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="Cherkuri Shesha Sai Computer Science student">
+    <meta name="description" content="this is profile of the a full stack developer">
+    <meta name="Author" content="Shesha Sai">
+    <meta http-equiv="refresh" content="10" url="http://localhost:8500">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="./assests/css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <p> gaaaa</p>
+    <header>
+        <h1>Shesha Sai profile</h1>
+    </header>
+    <main>
+        <section>
+        <h1>Personal imformation</h1>
+        <img src="./assests/images/vegita.jpg" width="300px" height="300px" >
+        <p><strong>Name:</strong> Shesha Sai</p>
+        <p><strong>Branch:</strong> Computer Science</p>
+        <p><strong>College:</strong> Malla Reddy University</p>
+        </section>
+        <section>
+            <h1>Academic Performance</h1>
+            <table>
+                <head><tr>
+                    <th>Semester</th>
+                    <th>Subject</th>
+                    <th>CGPA</th>
+                </tr></head>
+                <body>
+                    <tr>
+                        <td>1st</td>
+                        <td>bio,phy,chem</td>
+                        <td>8.5</td>
+                    </tr>
+                    <tr>
+                        <td>2nd</td>
+                        <td>bio,phy,chem</td>
+                        <td>8.0</td>
+                    </tr>
+                    <tr>
+                        <td>3rd</td>
+                        <td>bio,phy,chem</td>
+                        <td>7.6</td>
+                    </tr>
+                </body>
+                
+
+            </table>
+        </section>
+        <section>
+            <h1>Techincal Skills</h1>
+            <ul>
+                <li><strong>Operating System:</strong> Windows</li>
+                <li><strong>Language:</strong> java,python</li>
+                <li><strong>Front-end:</strong> Angular js,React js</li>
+                <li><strong>DataBases:</strong> My sql,Mongodb</li> 
+            </ul>
+        </section>
+        <section>
+            <h1>Hobbeys & intrests</h1>
+            <ol>
+                 <li>Wactching anime</li>
+                <li>Playing VolleyBall</li>
+                <li>Gym</li>
+                <li>Running</li>
+            </ol>
+        </section>
+        <section>
+            <h1>Contact Me</h1>
+            <form action="#" >
+                <div class="formgroup">
+                    <label for="Email"><strong>Email:</strong></label><br>
+                <input type="email" id="email" name="email" required></div>
+                <div class="formgroup">
+                    <label for="callbackdate"><strong> when to call back:</strong></label><br>
+                    <input type="datetime-local" name="callbackdate" id="callbackdate">
+                </div>
+                <div class="formgroup">
+                    <label for="Contactno"> <strong>Contact no:</strong></label><br>
+                    <input type="number" name="Contactno" id="Contact">
+                </div>
+                <div class="formgroup">
+                    <label for="description"><strong>description:</strong></label><br>
+                    <textarea name="description" id="description" rows="6" required></textarea>
+                </div>
+                <div class="formgroup">
+                   <label for="Linkedin"><strong>Linkedin:</strong></label><br>
+                   <input type="url" name="Linkedin" id="Linkedin">
+                </div>
+                <div class="formgroup">
+                    <input type="submit" name="Submit">
+                </div>
+                
+            </form>
+        </section>
+    </main>
+   
 </body>
 </html>
